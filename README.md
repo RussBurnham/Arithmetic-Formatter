@@ -1,17 +1,10 @@
 # Arithmetic-Formatter
 
-### This is a project on Scientific Computing with Python on freecodecamp
+### Scientific Computing with Python, course offered by freecodecamp.org
 
-<sup>Situations that will return an error:
--If there are too many problems supplied to the function. The limit is five, anything more will return: Error: Too many problems.
--The appropriate operators the function will accept are addition and subtraction. Multiplication and division will return an error. Other operators not mentioned in this bullet point will not need to be tested. The error returned will be: Error: Operator must be '+' or '-'.
--Each number (operand) should only contain digits. Otherwise, the function will return: Error: Numbers must only contain digits.
--Each operand (aka number on each side of the operator) has a max of four digits in width. Otherwise, the error string returned will be: Error: Numbers cannot be more than four digits.
-If the user supplied the correct format of problems, the conversion you return will follow these rules:
--There should be a single space between the operator and the longest of the two operands, the operator will be on the same line as the second operand, both operands will be in the same order as provided (the first will be the top one and the second will be the bottom).
--Numbers should be right-aligned.
--There should be four spaces between each problem.
--There should be dashes at the bottom of each problem. The dashes should run along the entire length of each problem individually. (The example above shows what this should look like.)<sup/>
+This function solves and formats math problems within the restrictions provided by project instructions. 
+
+Instructions for building this project can be found at https://www.freecodecamp.org/learn/scientific-computing-with-python/scientific-computing-with-python-projects/arithmetic-formatter
 
     import re
 
